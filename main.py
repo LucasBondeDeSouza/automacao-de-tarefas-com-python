@@ -9,28 +9,28 @@ pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
 
-time.sleep(3)
+time.sleep(2)
 
 # Digitar o site
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
 
-time.sleep(3)
+time.sleep(2)
 
 # Passo 2: Fazer login
 # Preencher e-mail
 pyautogui.click(x=523, y=370)
-pyautogui.write("lucas@gmail.com")
+pyautogui.write("user@gmail.com")
 
 # Preencher senha
 pyautogui.press("tab")
-pyautogui.write("7g7gyxb6mp5fu")
+pyautogui.write("çqpw0dded")
 
 # Botão logar
 pyautogui.press("tab")
 pyautogui.press("enter")
 
-time.sleep(3)
+time.sleep(2)
 
 # Passo 3: Importar a base de dados
 import pandas
